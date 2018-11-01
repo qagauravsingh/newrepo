@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ModesTestSuite" time="12" tests="1" failures="0" errors="0">
+   <testsuite name="ModesTestSuite" tests="1" failures="0" errors="0" time="12" timestamp="2018-11-01 16:39:47" hostname="qagau - DESKTOP-7B2OP92" id="Test Suites/ModesTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="G:\\KatalonWorkspace\\RecordMode\\Reports\\ModesTestSuite\\20181101_163946"/>
+         <property name="logFiles" value="G:\\KatalonWorkspace\\RecordMode\\Reports\\ModesTestSuite\\20181101_163946\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="qagau - DESKTOP-7B2OP92"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.3.2"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="192.168.1.48"/>
+         <property name="sessionId" value="35e063aebfc7cd80c26d635476fbeaf2"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/RecordMode" classname="Test Cases/RecordMode" status="PASSED">
+         <system-out><![CDATA[2018-11-01 16:39:47 - [TEST_CASE][PASSED] - Test Cases/RecordMode: Test Cases/RecordMode
+
+2018-11-01 16:39:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-01 16:39:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-01 16:39:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin' successfully
+
+2018-11-01 16:39:55 - [MESSAGE][PASSED] - Navigate to 'https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin' successfully
+
+2018-11-01 16:39:55 - [TEST_STEP][PASSED] - setText: Text 'qa.gauravsingh01@gmail.com' is set on object 'Object Repository/RecordModeOR/Page_Gmail/input_Continue to Gmail_identi'
+
+2018-11-01 16:39:55 - [MESSAGE][PASSED] - Text 'qa.gauravsingh01@gmail.com' is set on object 'Object Repository/RecordModeOR/Page_Gmail/input_Continue to Gmail_identi'
+
+2018-11-01 16:39:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RecordModeOR/Page_Gmail/content_Next' is clicked on
+
+2018-11-01 16:39:55 - [MESSAGE][PASSED] - Object: 'Object Repository/RecordModeOR/Page_Gmail/content_Next' is clicked on
+
+2018-11-01 16:39:55 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/RecordModeOR/Page_Gmail/input_Too many failed attempts'
+
+2018-11-01 16:39:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/RecordModeOR/Page_Gmail/input_Too many failed attempts'
+
+2018-11-01 16:39:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/RecordModeOR/Page_Gmail/span_Next' is clicked on
+
+2018-11-01 16:39:57 - [MESSAGE][PASSED] - Object: 'Object Repository/RecordModeOR/Page_Gmail/span_Next' is clicked on
+
+2018-11-01 16:39:57 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-01 16:39:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-01 16:39:47 - [TEST_SUITE][PASSED] - ModesTestSuite: Test Cases/RecordMode]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
